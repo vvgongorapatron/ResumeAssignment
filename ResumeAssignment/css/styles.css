@@ -1,0 +1,74 @@
+/* 
+COLOR PALETTE 
+
+Purple Haze     #BEAFC2
+Purple          #695E93
+Violet          #8155BA
+Ebony           #281C2D
+Black           #222222
+Off-White       #F6F6F6
+*/
+
+
+
+/* GLOBAL STYLES 
+------------------------------------*/
+body{
+    background: #F6F6F6;
+    color: #222222;
+}
+
+/* links */
+a{
+    color: #8155BA;
+}
+
+a:hover{
+    color: #695E93;
+    text-decoration: none;
+}
+
+footer a{
+    color: #BEAFC2;
+}
+
+footer a:hover{
+    color: #F6F6F6;
+}
+
+.btn{
+    background: #8155BA;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+
+/* HOME
+------------------------------------*/
+
+/* RESUME
+------------------------------------*/
+
+/* Profile
+------------------------------------*/
+
+/* Projects
+------------------------------------*/
+
+#projects img{
+    width: 100px;
+}
+
+
+/* Work Experience
+------------------------------------*/
+
+/* Education
+------------------------------------*/
+
+/* FOOTER 
+------------------------------------*/
+footer{
+    background: #281C2D;
+    color: #F6F6F6;
+}
