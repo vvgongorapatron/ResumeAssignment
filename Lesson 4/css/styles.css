@@ -1,0 +1,159 @@
+/* 
+COLOR PALETTE 
+
+Purple Haze     #BEAFC2
+Purple          #695E93
+Violet          #8155BA
+Ebony           #281C2D
+Black           #222222
+Off-White       #F6F6F6
+*/
+
+
+
+/* GLOBAL STYLES 
+------------------------------------*/
+body{
+    font-family: 'Poppins', sans-serif; 
+    background: #F6F6F6;
+    color: #222222;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/* links */
+a{
+    color: #8155BA;
+}
+
+a:hover{
+    color: #695E93;
+    text-decoration: none;
+}
+
+footer a{
+    color: #BEAFC2;
+}
+
+footer a:hover{
+    color: #F6F6F6;
+}
+
+.btn{
+    background: #8155BA;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+
+/* HOME
+------------------------------------*/
+
+/* RESUME
+------------------------------------*/
+
+.resume header::before{
+    background: url(../images/sharon-mccutcheon-unsplash.jpg) center;
+    background-size: cover;
+    content: "hello";
+    display: block;
+    height: 375px;
+}
+
+.resume-section{
+    margin-bottom: 50px;
+}
+
+.resume-section h2{
+    border-bottom: 2px dashed #8155BA;
+}
+
+.download-link{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+header h1{
+    text-shadow: 4px 2px 3px #695E93;
+}
+
+header h2{
+    text-shadow: 3px 1px 3px #695E93;
+}
+
+/* Profile
+------------------------------------*/
+
+.project-item{
+    display: flow-root;
+    margin: 30px 0;
+}
+
+.project-item img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Projects
+------------------------------------*/
+
+#projects img{
+    width: 100px;
+}
+
+
+/* Work Experience
+------------------------------------*/
+
+.work-item{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+}
+
+/* Education
+------------------------------------*/
+
+/* FOOTER 
+------------------------------------*/
+footer{
+    background: #281C2D;
+    color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.socials img{
+    width: 32px;
+}
+
+.socials img:hover{
+    opacity: 0.5;
+}
